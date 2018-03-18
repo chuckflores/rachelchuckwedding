@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   align-content: center;
+  margin-bottom: 48px;
 }
 
 .title {
@@ -20,4 +21,8 @@
   @media (max-width: 424px) {
     font-size: 32px
   }
+}
+
+.title-subheader {
+
 }
