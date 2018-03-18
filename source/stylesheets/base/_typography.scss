@@ -1,5 +1,11 @@
+body {
+  font-family: $font-text;
+  font-size: 1em;
+}
+
 .title {
-  font-family: 'kanji';
+  color: $color-black;
+  font-family: $font-display;
   font-size: 62px;
   letter-spacing: 2px;
 }
