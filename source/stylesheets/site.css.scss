@@ -2,10 +2,12 @@
 
 @import "./base/base";
 @import "./pages/home";
+@import "./components/components";
 
 body {
   color: #333;
   text-align: center;
+  margin: 0;
 }
 
 a {

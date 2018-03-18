@@ -3,11 +3,11 @@ body {
   font-size: 1em;
 }
 
-.title {
-  color: $color-black;
-  font-family: $font-display;
-  font-size: 62px;
-  letter-spacing: 2px;
+p {
+  font-size: 1.2em;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  margin: 0;
 }
 
 .title-plus-symbol {
@@ -15,7 +15,16 @@ body {
 }
 
 .title-subheader {
+    font-size: 24px;
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
 }
