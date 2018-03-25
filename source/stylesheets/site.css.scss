@@ -3,9 +3,11 @@
 @import "./base/base";
 @import "./pages/home";
 @import "./components/components";
+@import "./sections/sections";
 
 body {
   color: #333;
+  scroll-behavior: smooth;
   text-align: center;
   margin: 0;
 }
@@ -17,4 +19,8 @@ a {
   &:hover {
     color: rgba(#000, 0.6);
   }
+}
+
+.page-container {
+
 }
