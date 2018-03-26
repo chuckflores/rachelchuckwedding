@@ -59,3 +59,14 @@ nav {
 .active {
   border-color: $color-cyan;
 }
+
+.hamburger {
+  display: none;
+  order: 2;
+}
+
+@media (max-width: 928px) {
+  nav {
+    display: none;
+  }
+}

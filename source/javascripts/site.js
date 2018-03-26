@@ -1,4 +1,19 @@
-// This is where it all goes :)
+// Responsive nav
+
+/* Close */
+function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+    document.getElementById("myNav").style.opacity = "0";
+}
+
+/* Open */
+function openNav() {
+    document.getElementById("myNav").style.display = "block";
+    document.getElementById("myNav").style.opacity = "1";
+}
+
+
+
 
 // Smooth Scroll
 $(document).ready(function() {

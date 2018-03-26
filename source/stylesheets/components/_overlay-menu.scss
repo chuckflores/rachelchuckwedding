@@ -1,0 +1,82 @@
+#myNav {
+  display: none;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 999999999; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #FFF;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: all 0.5s ease;
+}
+
+
+
+.overlay-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  width: 100%
+}
+
+.overlay-close {
+  color: $color-black;
+  cursor: pointer;
+}
+
+.overlay-links {
+  color: $color-black;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    border-bottom: 2px solid;
+    :hover {
+      color: $color-cyan;
+      border-color: $color-cyan;
+    }
+    :visited {
+      color: $color-black;
+    }
+  }
+}
+
+.close {
+  position: absolute;
+  right: 40px;
+  top: 24px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 24px;
+  width: 2px;
+  background-color: $color-magenta;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
