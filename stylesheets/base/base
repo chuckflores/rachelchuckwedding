@@ -8,8 +8,39 @@ p {
   letter-spacing: -0.4px;
   margin: 0; }
 
-.title-plus-symbol {
-  font-size: 16; }
+.title-1 {
+  font-family: "kanji";
+  font-size: 100px;
+  color: #19191A;
+  letter-spacing: -0.3px; }
+
+.title-1__large {
+  font-size: 100px; }
+  @media (max-width: 1200px) {
+    .title-1__large {
+      font-size: 100px; } }
+  @media (max-width: 980px) {
+    .title-1__large {
+      font-size: 80px; } }
+  @media (max-width: 800px) {
+    .title-1__large {
+      font-size: 70px; } }
+  @media (max-width: 700px) {
+    .title-1__large {
+      font-size: 60px; } }
+  @media (max-width: 600px) {
+    .title-1__large {
+      font-size: 50px; } }
+  @media (max-width: 500px) {
+    .title-1__large {
+      font-size: 40px; } }
+
+.title-2 {
+  color: #19191A;
+  font-family: "kanji";
+  font-size: 72px;
+  letter-spacing: -0.2px;
+  line-height: 1; }
 
 .title-subheader {
   font-size: 24px;

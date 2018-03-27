@@ -3,6 +3,8 @@ Error: Undefined variable: "$color-black".
         on line 10 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/_title.scss
         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/components.scss
 
+5: @import "scroll-icon";
+
 Backtrace:
 /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/_title.scss:10
 /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/components.scss:1
@@ -142,4 +144,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-black\".\A         on line 10 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/_title.scss\A         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/components.scss"; }
+  content: "Error: Undefined variable: \"$color-black\".\A         on line 10 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/_title.scss\A         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/components.scss\A \A 5: @import \"scroll-icon\";"; }

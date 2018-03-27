@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$nav-height".
-        on line 2 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/_hero.scss
+        on line 6 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/_hero.scss
         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/sections.scss
 
 1: @import "hero";
@@ -11,7 +11,7 @@ Error: Undefined variable: "$nav-height".
 6: @import "party";
 
 Backtrace:
-/Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/_hero.scss:2
+/Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/_hero.scss:6
 /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/sections.scss:1
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
@@ -149,4 +149,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$nav-height\".\A         on line 2 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/_hero.scss\A         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/sections.scss\A \A 1: @import \"hero\";\A 2: @import \"story\";\A 3: @import \"details\";\A 4: @import \"accommodations\";\A 5: @import \"registry\";\A 6: @import \"party\";"; }
+  content: "Error: Undefined variable: \"$nav-height\".\A         on line 6 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/_hero.scss\A         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/sections/sections.scss\A \A 1: @import \"hero\";\A 2: @import \"story\";\A 3: @import \"details\";\A 4: @import \"accommodations\";\A 5: @import \"registry\";\A 6: @import \"party\";"; }
