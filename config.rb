@@ -52,3 +52,5 @@ activate :deploy do |deploy|
   deploy.branch = 'master'
   deploy.build_before = true
 end
+
+set :js_dir, 'js'
