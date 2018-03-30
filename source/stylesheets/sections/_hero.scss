@@ -8,56 +8,21 @@ $hero-shape-mobile-breakpoint: 540px;
   height: calc(100vh - 90px);
 }
 
-.hero-shape-1 {
-  position: absolute;
-  left: $hero-shape-distance;
-  top: $hero-shape-distance;
-  @media (max-width: $hero-shape-mobile-breakpoint) {
-    left: $hero-shape-distance-mobile;
-    top: $hero-shape-distance-mobile;
-  }
-}
-
-.hero-shape-2 {
-  position: absolute;
-  right: $hero-shape-distance;
-  top: $hero-shape-distance;
-  @media (max-width: $hero-shape-mobile-breakpoint) {
-    right: $hero-shape-distance-mobile;
-    top: $hero-shape-distance-mobile;
-  }
-}
-
-.hero-shape-3 {
-  position: absolute;
-  left: $hero-shape-distance;
-  bottom: $hero-shape-distance;
-  @media (max-width: $hero-shape-mobile-breakpoint) {
-    left: $hero-shape-distance-mobile;
-    bottom: $hero-shape-distance-mobile;
-  }
-}
-
-.hero-shape-4 {
-  position: absolute;
-  right: $hero-shape-distance;
-  bottom: $hero-shape-distance;
-  @media (max-width: $hero-shape-mobile-breakpoint) {
-    right: $hero-shape-distance-mobile;
-    bottom: $hero-shape-distance-mobile;
-  }
-}
-
 .hero--content-container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   height: 100%;
+  width: 100%;
 }
 
 .hero--title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   z-index: 2;
+  text-align: center;
 }
 
 .hero--names-container {
@@ -114,4 +79,53 @@ $hero-shape-mobile-breakpoint: 540px;
     font-size: 40px;
   }
 
+}
+
+// Shapes shapes
+.hero-shape-1 {
+  position: absolute;
+  left: $hero-shape-distance;
+  top: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    left: $hero-shape-distance-mobile;
+    top: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
+}
+
+.hero-shape-2 {
+  position: absolute;
+  right: $hero-shape-distance;
+  top: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    right: $hero-shape-distance-mobile;
+    top: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
+}
+
+.hero-shape-3 {
+  position: absolute;
+  left: $hero-shape-distance;
+  bottom: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    left: $hero-shape-distance-mobile;
+    bottom: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
+}
+
+.hero-shape-4 {
+  position: absolute;
+  right: $hero-shape-distance;
+  bottom: $hero-shape-distance;
+  @media (max-width: $hero-shape-mobile-breakpoint) {
+    right: $hero-shape-distance-mobile;
+    bottom: $hero-shape-distance-mobile;
+    width: 48px;
+    height: auto;
+  }
 }

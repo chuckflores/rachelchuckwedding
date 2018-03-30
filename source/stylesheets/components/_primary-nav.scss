@@ -25,7 +25,7 @@
   margin: 15px 0;
 }
 
-nav {
+.nav {
   order: 2;
   ul {
     display: flex;
@@ -69,7 +69,7 @@ nav {
 }
 
 @media (max-width: 928px) {
-  nav {
+  .nav {
     display: none;
   }
 }
