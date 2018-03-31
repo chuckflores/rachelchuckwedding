@@ -42,18 +42,35 @@
 
   ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
   }
+
+  li {
+    padding-left: 40px;
+    margin-bottom: 48px;
+  }
+
   a {
     text-decoration: none;
-    border-bottom: 2px solid;
-    :hover {
-      color: $color-cyan;
-      border-color: $color-cyan;
-    }
-    :visited {
-      color: $color-black;
-    }
   }
+}
+
+.nav-mobile-links {
+
+}
+
+.nav-mobile-links:hover {
+  color: $color-cyan;
+}
+
+.nav-mobile-links:visited {
+  color: $color-black;
+}
+
+.nav--mobile-bottom-line {
+  background-color: $color-cyan;
+  width: 100%;
 }
 
 .close {
