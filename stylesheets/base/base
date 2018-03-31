@@ -3,7 +3,7 @@ body {
   font-size: 1em; }
 
 p {
-  font-size: 1.2em;
+  font-size: 17px;
   line-height: 1.4;
   letter-spacing: -0.4px;
   margin: 0; }
@@ -12,7 +12,8 @@ p {
   font-family: "kanji";
   font-size: 100px;
   color: #19191A;
-  letter-spacing: -0.3px; }
+  letter-spacing: -0.3px;
+  z-index: 10; }
 
 .title-1__large {
   font-size: 100px; }
@@ -40,7 +41,24 @@ p {
   font-family: "kanji";
   font-size: 72px;
   letter-spacing: -0.2px;
-  line-height: 1; }
+  line-height: 1;
+  z-index: 10; }
+
+.title-3 {
+  color: #19191A;
+  font-family: "kanji";
+  font-size: 46px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10; }
+
+.title-4 {
+  color: #19191A;
+  font-family: "kanji";
+  font-size: 30px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  z-index: 10; }
 
 .title-subheader {
   font-size: 24px;

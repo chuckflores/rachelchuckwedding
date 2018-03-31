@@ -1,0 +1,42 @@
+<section id="accommodations">
+  <div class="accommodations--wrapper-container">
+    <img src="./images/shapes/accommodations/accommodations-white-tiangle-1.svg" alt="" class="accommodations-white-triangle-1">
+    <img src="./images/shapes/accommodations/accommodations-dot-grid-yellow-1.svg" alt="" class="accommodations-shape-1 rellax" data-rellax-speed="1">
+
+    <div class="accommodations--content-container">
+      <div class="title-3">
+        Accommodations
+      </div>
+
+      <div class="accommodations--primary-location">
+        <div class="accommodations--header">
+          Wyndham Garden Brooklyn Sunset Park
+        </div>
+        <p>We have a block of rooms at the Wyndham Garden’s. It’s within a 5min walk of the wedding venue.</p>
+        <br />
+        <p>Call and ask for the Bousel/Flores block rate.</p>
+        <strong>718.972.0900</strong>
+      </div>
+
+      <div class="accommodations--alternates-container">
+        <img src="./images/shapes/accommodations/accommodations-dot-grid-pink-1.svg" alt="" class="accommodations-shape-2">
+        <div class="accommodations--altenates-text">
+          <div class="accommodations--header">
+            Alternate Accomodations
+          </div>
+          <ul class="accommodations--altenates-list">
+            <a href="#" class="accommodations--altenates-list__link"><li>Hotel BPM Brooklyn <span class="accommodations--altenates-list__distance">(0.3 miles away)</span></li></a>
+            <li>Days Inn Brooklyn <span class="accommodations--altenates-list__distance">(0.3 miles away)</span></li>
+            <li>Holiday Inn Express New York-Brooklyn <span class="accommodations--altenates-list__distance">(0.3 miles away)</span></li>
+            <li>Fairfield Inn & Suites By Marriott New York Brooklyn <span class="accommodations--altenates-list__distance">(0.3 miles away)</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accommodations--bottom-triangle">
+      <img src="./images/shapes/accommodations/accommodations-white-tiangle-2.svg" alt="" class="accommodations-white-triangle-2">
+    </div>
+
+  </div>
+</section>
