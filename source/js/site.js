@@ -50,7 +50,7 @@ function onScroll(event){
 			var refElement = $(currentLink.attr("href"));
 
 			if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
-				$('nav ul li a').removeClass('active');
+				$('nav--desktop-link').removeClass('active');
 				currentLink.addClass('active');
 			}
 			else{
