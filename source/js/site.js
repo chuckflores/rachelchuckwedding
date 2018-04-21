@@ -40,7 +40,7 @@ $(document).ready(function() {
 	});
 });
 
-// Change Nav Link Active Class on Scroll
+// Change Nav Link Active Class on Scroll Desktop
 function onScroll(event){
 		var scrollPosition = $(document).scrollTop();
 
