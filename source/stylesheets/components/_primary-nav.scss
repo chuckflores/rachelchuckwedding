@@ -25,6 +25,8 @@
   margin: 15px 0;
 }
 
+
+
 .nav {
   order: 2;
   ul {
@@ -39,29 +41,30 @@
         margin-left: 0;
       }
     }
-  a {
-    border-bottom: 2px solid;
-    border-color: rgba(255,255,255,0);
-    color: $color-black;
-    font-size: 14px;
-    font-weight: 700;
-    height: $nav-height -2;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: all 150ms ease;
-    :active {
-      color: $color-magenta;
-    }
-    :hover {
-      color: $color-cyan;
-    }
   }
+}
+
+.nav--desktop-link {
+  border-bottom: 2px solid;
+  border-color: rgba(255,255,255,0);
+  color: $color-black;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 250ms ease;
+  &:hover {
+    color: $color-cyan;
   }
 }
 
 .active {
   border-color: $color-cyan;
+  color: $color-magenta;
 }
+
+
 
 .hamburger {
   display: none;
