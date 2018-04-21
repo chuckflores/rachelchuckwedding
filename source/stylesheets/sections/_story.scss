@@ -1,25 +1,31 @@
 #story {
-  background: #FAFBFC;
-  padding: 120px 0;
+  background-image: linear-gradient(-180deg, #FAFBFC 0%, #F0F3F6 100%);
+  padding: 120px 0 0;
   width: 100%;
-  // position: relative;
+  position: relative;
+
+  .title-3 {
+    padding-top: 130px;
+    padding-bottom: 110px;
+  }
 }
 
 .story--wrapper-container {
-  // position: relative;
-  // height: 100%;
+  position: relative;
+  height: 100%;
   width: 100%;
 }
 
 .story--content-container {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   align-items: center;
-  // position: relative;
-  // padding: 0;
+  position: relative;
   width: 100%;
 }
+
+
+// Box Component
 
 .story--box-container {
   display: flex;
@@ -89,18 +95,16 @@
   }
 }
 
-#story--1 {
-  // background: yellow;
+
+// Shapes
+
+.story-shape-1 {
+  position: absolute;
+  left: 26%;
 }
 
-#story--2 {
-  // background: aqua;
-}
-
-#story--3 {
-  // background: green;
-}
-
-#story--4 {
-  // background: blue;
+.story-shape-2 {
+  position: absolute;
+  left: 20%;
+  margin-top: 0px;
 }
