@@ -33,14 +33,14 @@ $(document).ready(function() {
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 500, 'swing', function () {
+	    }, 600, 'swing', function () {
 	        window.location.hash = target;
           $(document).on("scroll", onScroll);
 	    });
 	});
 });
 
-// Change Nav Link Active Class on Scroll
+// Change Nav Link Active Class on Scroll Desktop
 function onScroll(event){
 		var scrollPosition = $(document).scrollTop();
 
