@@ -17,6 +17,7 @@
   padding: 180px 0px 300px;
   position: relative;
   width: 100%;
+  z-index: 100;
 }
 
 .accommodations--content-container .title-3 {
@@ -93,6 +94,7 @@
   position: absolute;
   left: 0;
   margin-top: -240px;
+  z-index: 1;
 }
 
 .accommodations-shape-1 {

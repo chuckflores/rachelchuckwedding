@@ -47,6 +47,10 @@ p {
   letter-spacing: -0.2px;
   line-height: 1;
   z-index: 10;
+
+  @media (max-width: 600px) {
+    font-size: 52px;
+  }
 }
 
 .title-3 {

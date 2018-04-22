@@ -89,6 +89,9 @@
 .story-shape-1 {
   position: absolute;
   left: 26%;
+  @media (max-width: 400px) {
+    left: 2%;
+  }
 }
 
 .story-shape-2 {
