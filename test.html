@@ -23,11 +23,11 @@
     <!-- desktop nav -->
     <nav class="nav">
       <ul>
-        <li><a href="#story">Story</a></li>
-        <li><a href="#details">Details</a></li>
-        <li><a href="#party">Wedding Party</a></li>
-        <li><a href="#accommodations">Accommodations</a></li>
-        <li><a href="#registry">Registry</a></li>
+        <li><a href="#story" class="nav--desktop-link">Story</a></li>
+        <li><a href="#details" class="nav--desktop-link">Details</a></li>
+        <li><a href="#party" class="nav--desktop-link">Wedding Party</a></li>
+        <li><a href="#accommodations" class="nav--desktop-link">Accommodations</a></li>
+        <li><a href="#registry" class="nav--desktop-link">Registry</a></li>
       </ul>
     </nav>
     <!-- hamburger icon -->
@@ -50,9 +50,7 @@
         <div class="overlay-links">
           <ul>
             <li>
-              <div class="">
-                <a href="#story" onClick="closeNav()" class="nav-mobile-links">Story</a>  
-              </div>
+                <a href="#story" onClick="closeNav()" class="nav-mobile-links">Story</a>
 
             </li>
             <li><a href="#details" onClick="closeNav()" class="nav-mobile-links">Details</a></li>
@@ -90,21 +88,85 @@
         Are Getting Married
       </div>
       <div class="hero--date title-2">
-        07.17.2018
+        06.17.2018
       </div>
     </div>
-    <div class="scroll-icon">
-      <div class="scroll-wheel">
+    <div class="scroll-icon-container">
+      <div class="scroll-icon">
+        <div class="scroll-wheel">
+        </div>
+      </div>
+      <div class="scroll-text">
+        Scroll
       </div>
     </div>
+
   </div>
 </section>
 
 
 <section id="story">
-  <div class="story--content-container">
-    <div class="">
-      <h1>Our Story</h1>
+  <div class="story--wrapper-container">
+    <img src="./images/shapes/story/story-dot-grid-yellow-1.svg" alt="" class="story-shape-1 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/story/story-lines-purple-1.svg" alt="" class="story-shape-2 rellax" data-rellax-speed="2">
+
+    <div class="story--content-container">
+
+      <div class="title-3">
+        Our Story
+      </div>
+
+      <div class="story--box-container">
+        <div class="story--box">
+          <div id="story--1" class="story--box-content">
+            <img src="./images/story/story-1@2x.png" alt="" class="story--box-image">
+            <p class="story--box-text">
+              September 17th, 2011. We met under the lasers of a Ghostland Observatory show in New York City. After the concert, we split a cab with our friends to a Brooklyn dive bar, The Levee.
+            </p>
+          </div>
+        </div>
+        <div class="story--box">
+          <div id="story--2" class="story--box-content">
+            <img src="./images/story/story-2@2x.png" alt="" class="story--box-image">
+            <p class="story--box-text">
+              In true romantic fashion, we ate cheeseballs and played Connect Four where Rachel showed off her competitive spirit.
+            </p>
+          </div>
+        </div>
+        <div class="story--box">
+          <div id="story--3" class="story--box-content">
+            <img src="./images/story/story-3@2x.png" alt="" class="story--box-image">
+            <p class="story--box-text">
+              We began dating, fell in love, adopted a (sometimes) sweet cat, Gilda and both went back to school to change careers.
+            </p>
+          </div>
+        </div>
+        <div class="story--box">
+          <div id="story--4" class="story--box-content">
+            <img src="./images/story/story-4@2x.png" alt="" class="story--box-image">
+            <p class="story--box-text">
+              Fast Forward to December 31st 2016: Chuck proposed at a captivating frozen waterfall in Sweden.
+            </p>
+          </div>
+        </div>
+        <div class="story--box">
+          <div id="story--5" class="story--box-content">
+            <img src="./images/story/story-5@2x.png" alt="" class="story--box-image">
+            <p class="story--box-text">
+              Last June 17th 2017, we married at an intimate ceremony with our immediate family in North Carolina.
+            </p>
+          </div>
+        </div>
+        <div class="story--box">
+          <div id="story--6" class="story--box-content">
+            <img src="./images/story/story-6@2x.png" alt="" class="story--box-image">
+            <p class="story--box-text">
+              On our one year anniversary, we are thrilled to share the celebration with our extended family and friends. Thank you for your support and love.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -123,14 +185,14 @@
 
     <div class="details--content-container">
 
-      <div class="title-2">Wedding Details</div>
+      <div class="title-2 details--title">Wedding Details</div>
 
       <div class="details--date-container">
         <div class="details--label">
-          Date
+          Date + Time
         </div>
         <div class="details--date title-3">
-          07.17.2018
+          06.17.2018
         </div>
         <div class="details--date-time title-4">
           11:30 AM
@@ -139,22 +201,7 @@
 
       <div class="details--location-container">
 
-        <div class="details--parking-container">
-          <div class="details--label">
-            Parking
-          </div>
-          <p>Located less than a block from the wedding venue.</p>
-          <div class="details--parking-rate">
-            Weekend Rate: $5/day
-          </div>
-        </div>
-
-        <div class="details--map-container">
-          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1334QI4gwWRptB2JqyGw3Z-IcYrV7E6P_"></iframe>
-        </div>
-
         <div class="details--venue-transportation-container">
-
           <div class="details--venue-container">
             <div class="details--label">
               Location
@@ -167,6 +214,17 @@
               Brooklyn, NY 11232
             </div>
           </div>
+
+          <div class="details--parking-container">
+            <div class="details--label">
+              Parking
+            </div>
+            <p>Located less than a block from the wedding venue.</p>
+            <div class="details--parking-rate">
+              Weekend Rate: $5/day
+            </div>
+          </div>
+
 
           <div class="details--transportation-container">
             <div class="details--label">
@@ -184,6 +242,10 @@
           </div>
         </div>
 
+        <div class="details--map-container">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1334QI4gwWRptB2JqyGw3Z-IcYrV7E6P_"></iframe>
+        </div>
+
       </div>
     </div>
 
@@ -199,13 +261,131 @@
 > -->
 
 
-<!-- <section id="party">
-  <h1>Wedding Party</h1>
-</section> -->
+<section id="party">
+  <div class="party--wrapper-container">
+    <img src="./images/shapes/party/party-purple-lines-1.svg" alt="" class="party-shape-1 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/party/party-ring-group-1.svg" alt="" class="party-shape-2 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/party/party-lines-cyan-1.svg" alt="" class="party-shape-3 rellax" data-rellax-speed="2">
+    <img src="./images/shapes/party/party-ring-group-2.svg" alt="" class="party-shape-4 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/party/party-lines-cyan-2.svg" alt="" class="party-shape-5 rellax" data-rellax-speed="1">
+
+    <div class="party--content-container">
+
+      <div class="title-3">
+        Wedding Party
+      </div>
+
+      <div id="party--bridemaids-section">
+        <h3 class="party--title party--title__bride">Bridemaids</h3>
+        <div class="party--people-container">
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Laura Irwin</h4>
+            <img src="./images/party/party-bridesmaid-laura@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Here is an description text and what it would be like and a third line</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Jamie Hogan</h4>
+            <img src="./images/party/party-bridesmaid-jamie@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Here is an description text and what it would be like and a third line</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Hajar Yazdiha Ferrell</h4>
+            <img src="./images/party/party-bridesmaid-haj@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Survived high school & living in NYC together</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Stephanie Brown</h4>
+            <img src="./images/party/party-bridesmaid-stephanie@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Here is an description text and what it would be like and a third line</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Joy Stroud</h4>
+            <img src="./images/party/party-bridesmaid-joy@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Here is an description text and what it would be like and a third line</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Kristin Resurreccion</h4>
+            <img src="./images/party/party-bridesmaid-kristin@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Here is an description text and what it would be like and a third line</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Elena Flores</h4>
+            <img src="./images/party/party-bridesmaid-elena@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Here is an description text and what it would be like and a third line</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Ann Nguyen</h4>
+            <img src="./images/party/party-bridesmaid-ann@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Here is an description text and what it would be like and a third line</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="party--officant-section">
+        <h3 class="party--title">Officiant</h3>
+        <div class="party--officant">
+          <h4 class="party--officant-name">Quincy Marr</h4>
+          <img src="./images/party/party-officiant-quincy@2x.png" class="party--officant-image" alt="">
+          <p class="party--people-description party--people-description__officant">Here is an description text and what it would be like and a third line</p>
+        </div>
+      </div>
+
+      <div id="party--groomsmen-section">
+        <h3 class="party--title party--title__groom">Groomsmen</h3>
+        <div class="party--people-container">
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Jamey Flores</h4>
+            <img src="./images/party/party-groomsmen-jamey@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Brother of groom, birthday baseball outings, creating random childhood games</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Josh Bousel</h4>
+            <img src="./images/party/party-groomsmen-josh@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Brother of Bride, Ticket to Ride,  numbing sicheun peppercorn bbq wings</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Tyson Gach</h4>
+            <img src="./images/party/party-groomsmen-tyson@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Biking to tampa,  driving the ring road Iceland, great cocktails</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Davey Partain</h4>
+            <img src="./images/party/party-groomsmen-davey@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Ghostland Observatory show, making music as ÆON RINGS, craft beer</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name party--people-name__groom">Khalil Al-Arefi</h4>
+            <img src="./images/party/party-groomsmen-khalil@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description party--people-description__groom">Snorkeling in the Virgin Islands, Nagoya Sushi, collage dance parties</p>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
 
 <section id="accommodations">
   <div class="accommodations--wrapper-container">
-    <img src="./images/shapes/accommodations/accommodations-white-tiangle-1.svg" alt="" class="accommodations-white-triangle-1">
+    <!-- <img src="./images/shapes/accommodations/accommodations-white-tiangle-1.svg" alt="" class="accommodations-white-triangle-1"> -->
     <img src="./images/shapes/accommodations/accommodations-dot-grid-yellow-1.svg" alt="" class="accommodations-shape-1 rellax" data-rellax-speed="1">
 
     <div class="accommodations--content-container">
@@ -240,7 +420,7 @@
     </div>
 
     <div class="accommodations--bottom-triangle">
-      <img src="./images/shapes/accommodations/accommodations-white-tiangle-2.svg" alt="" class="accommodations-white-triangle-2">
+      <!-- <img src="./images/shapes/accommodations/accommodations-white-tiangle-2.svg" alt="" class="accommodations-white-triangle-2"> -->
     </div>
 
   </div>
@@ -253,12 +433,35 @@
     <img src="./images/shapes/registry/registry-ring-navy-1.svg" alt="" class="registry-shape-2 rellax" data-rellax-speed="1">
     <img src="./images/shapes/registry/registry-ring-sea-1.svg" alt="" class="registry-shape-3 rellax" data-rellax-speed="1">
     <img src="./images/shapes/registry/registry-lines-blue-1.svg" alt="" class="registry-shape-4 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/registry/registry-ring-gray-1.svg" alt="" class="registry-shape-5 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/registry/registry-ring-navy-2.svg" alt="" class="registry-shape-6 rellax" data-rellax-speed="1">
+
 
     <div class="registry--content-container">
 
       <a class="zola-registry-embed" href="https://www.zola.com/registry/chuckrachel" data-registry-key="chuckrachel">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
 
     </div>
+  </div>
+</section>
+
+
+<section id="footer">
+  <div class="footer--wrapper-container">
+    <img src="./images/shapes/footer/footer-dot-grid-yellow-1.svg" alt="" class="footer-shape-1 rellax" data-rellax-speed="-1">
+    <img src="./images/shapes/footer/footer-lines-pink-1.svg" alt="" class="footer-shape-2 rellax" data-rellax-speed="-1">
+    <img src="./images/shapes/footer/footer-ring-blue-1.svg" alt="" class="footer-shape-3 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/footer/footer-ring-yellow-1.svg" alt="" class="footer-shape-4 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/footer/footer-lines-blue-1.svg" alt="" class="footer-shape-5 rellax" data-rellax-speed="1">
+    <img src="./images/shapes/footer/footer-triangle-dots-pink-1.svg" alt="" class="footer-shape-6 rellax" data-rellax-speed="1">
+
+    <div class="footer--content-container">
+      <div class="footer--message">Can’t Wait to Celebrate!</div>
+      <div class="title-3 footer--date">
+        06.17.2018
+      </div>
+    </div>
+
   </div>
 </section>
 
