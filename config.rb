@@ -5,6 +5,9 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+# 404 Error Page config
+page '/404.html', directory_index: false
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
