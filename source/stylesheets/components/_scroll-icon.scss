@@ -24,7 +24,7 @@
 .scroll-icon-container {
   position: absolute;
   bottom: 0;
-  right: 50%;
+  left: calc(50% - 16px);
   margin-bottom: 40px;
   text-align: center;
   display: flex;
