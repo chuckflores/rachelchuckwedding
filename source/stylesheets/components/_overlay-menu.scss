@@ -1,5 +1,6 @@
 #myNav {
   display: none;
+  background-color: #FFF;
   opacity: 0;
   transition: all 0.5s ease;
 }
@@ -39,6 +40,7 @@
   font-size: 24px;
   font-weight: 700;
   text-align: left;
+  margin-top: 48px;
 
   ul {
     list-style-type: none;
@@ -52,7 +54,17 @@
   }
 
   a {
+    border-bottom: 4px solid;
+    border-bottom-color: #FFFFFF;
+    color: $color-cyan;
     text-decoration: none;
+  }
+  a:hover {
+    border-bottom: 4px solid;
+    border-bottom-color: $color-cyan;
+  }
+  a:visited {
+    color: $color-cyan;
   }
 }
 
@@ -65,7 +77,6 @@
 }
 
 .nav-mobile-links:visited {
-  color: $color-black;
 }
 
 .nav--mobile-bottom-line {

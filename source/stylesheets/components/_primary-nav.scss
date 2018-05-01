@@ -59,6 +59,14 @@
   }
 }
 
+.nav--desktop-link:visited {
+  color: $color-black;
+}
+
+.nav--desktop-link:hover {
+  color: $color-cyan;
+}
+
 .active {
   border-color: $color-cyan;
 }
