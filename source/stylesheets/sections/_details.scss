@@ -11,12 +11,12 @@
 }
 
 .details--content-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: relative;
   padding: 280px 20px 220px;
+  position: relative;
 }
 
 .details--title {
@@ -30,7 +30,7 @@
   margin-top: 130px;
 }
 
-.details--label {
+.details--label_date-time {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1.4px;
@@ -39,8 +39,11 @@
   text-transform: uppercase;
 }
 
-.details--date {
-
+.details--label {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 30px 0 10px;
 }
 
 .details--date-time {
@@ -49,18 +52,12 @@
 
 .details--location-container {
   display: flex;
-  // align-items: center;
   margin-top: 200px;
   @media (max-width: 600px) {
     flex-direction: column;
+    margin-top: 80px;
     width: 100%;
   }
-}
-
-.details--parking-container {
-  // text-align: right;
-  // max-width: 220px;
-  // padding-right: 60px;
 }
 
 .details--parking-rate {
@@ -68,21 +65,38 @@
 }
 
 .details--venue-transportation-container {
+  align-items: flex-start;
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  // max-width: 220px;
-  // padding-left: 60px;1
   justify-content: space-between;
+  margin: 0 40px;
   text-align: left;
+  @media (max-width: 500px) {
+    background: transparentize(#FFF, 0.2);
+    margin-bottom: 40px;
+  }
+}
+
+.details--transportation-img--container {
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.details--transportation-img-1 {
+  margin-right: 24px;
+  max-height: 30px;
+}
+
+.details--transportation-img-2 {
+  max-height: 22px;
 }
 
 .details--venue-container {
   display: flex;
   flex-direction: column;
   text-align: left;
-  // margin-top: -100px;
 }
 
 .details--venue-name {
@@ -90,9 +104,9 @@
 }
 
 .details--transportation-container {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   text-align: left;
 }
 
@@ -107,19 +121,19 @@
 }
 
 .details--subway-text {
-  transition: all 250ms ease;
-  text-decoration: underline;
   opacity: .5;
+  transition: $transition-fx;
+  text-decoration: underline;
 }
 
 .details--subway-icon {
-margin-top: 19px;
+  margin-top: 8px;
 }
 
 .details--map-container {
+  height: 500px;
   overflow: hidden;
   position: relative;
-  height: 500px;
   width: 500px;
   @media (max-width: 900px) {
     height: 400px;
@@ -134,47 +148,47 @@ margin-top: 19px;
 .details--map-container iframe {
   border: 8px solid #FFF;
   left: 0;
-  top: 0;
   height: 100%;
-  width: 100%;
   position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 // Shapes shapes
 .details--shape-1 {
-  position: absolute;
   left: 13%;
   margin-top: 180px;
+  position: absolute;
 }
 
 .details--shape-2 {
-  position: absolute;
   left: 30%;
   margin-top: 350px;
+  position: absolute;
 }
 
 .details--shape-3 {
-  position: absolute;
   right: 31%;
   margin-top: 460px;
+  position: absolute;
 }
 
 .details--shape-4 {
-  position: absolute;
   right: 20%;
   margin-top: 540px;
+  position: absolute;
 }
 
 .details--shape-5 {
-  position: absolute;
   left: 35%;
   margin-top: 600px;
+  position: absolute;
 }
 
 .details--shape-6 {
-  position: absolute;
-  right: 23%;
   margin-top: 700px;
+  right: 23%;
+  position: absolute;
   @media (max-width: 900px) {
     left: 15%;
   }
@@ -184,19 +198,20 @@ margin-top: 19px;
 }
 
 .details--shape-7 {
-  position: absolute;
   left: 35%;
   margin-top: 1100px;
+  position: absolute;
   @media (max-width: 900px) {
     left: 15%;
+    width: 50%
   }
   @media (max-width: 400px) {
-    width: 50%;
+    display: none;
   }
 }
 
 .details--shape-8 {
-  position: absolute;
   right: 40px;
   margin-top: 1400px;
+  position: absolute;
 }

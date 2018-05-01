@@ -1,35 +1,21 @@
 ---
 title: Rachel & Chuck
 ---
+  <!-- overlay menu -->
 
-<div style="text-transform: uppercase; padding: 120px 48px; font-weight: 700;">
-  <h1>Rachel & Chuck</h1>
-  <h4>Are Getting Married!</h4>
-  <div style="text-transform: initial; marginTop: 48px; font-weight: 400;">
-    <p>Our site is currently under development 🚧. Once you receive your invite in the mail check back here for more wedding details.</p>
-  </div>
-</div>
 
-<div style="width: 100%; margin: 48px; background: #EEE; height: 1px;">
+<%= partial "sections/header" %>
 
-</div>
+<%= partial "sections/hero" %>
 
-<div class="under-construction">
-  <div class="construction-img">
-    <img src="./images/under-construction.svg" alt="">
-  </div>
-  <div>
-    <h3 class="header-construction">Building our registry list</h3>
-    <p>Check back later to see our list. We just need to add a few more items 😝</p>
-  </div>
-</div>
+<%= partial "sections/story" %>
 
-<!-- <div class="registry">
-  <a class="zola-registry-embed" href="https://www.zola.com/registry/chuckrachel" data-registry-key="chuckrachel">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
-</div> -->
+<%= partial "sections/details" %>
 
-<!-- <%= link_to(
-  "Read Documentation",
-  "https://middlemanapp.com/basics/templating_language/",
-  target: "_blank"
-) %> -->
+<%= partial "sections/party" %>
+
+<%= partial "sections/accommodations" %>
+
+<%= partial "sections/registry" %>
+
+<%= partial "sections/footer" %>

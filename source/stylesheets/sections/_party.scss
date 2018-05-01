@@ -89,10 +89,11 @@
 }
 
 .party--people-description__groom {
-  text-align: right;
+  text-align: left;
 }
 
 .party--people-description__officant {
+  max-width: 320px;
   text-align: center;
 }
 
