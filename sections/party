@@ -13,7 +13,7 @@
       </div>
 
       <div id="party--bridemaids-section">
-        <h3 class="party--title party--title__bride">Bridemaids</h3>
+        <h3 class="party--title party--title__bride">Bridesmaids</h3>
         <div class="party--people-container">
 
           <div class="party--people-item">
@@ -29,15 +29,15 @@
           </div>
 
           <div class="party--people-item">
-            <h4 class="party--people-name">Hajar Yazdiha Ferrell</h4>
-            <img src="./images/party/party-bridesmaid-haj@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description">Survived high school & living in NYC together</p>
-          </div>
-
-          <div class="party--people-item">
             <h4 class="party--people-name">Stephanie Brown</h4>
             <img src="./images/party/party-bridesmaid-stephanie@2x.png" class="party--people-image" alt="">
             <p class="party--people-description">Friends from big wheels to driver licenses to marriage licenses. Trampoline champs.</p>
+          </div>
+
+          <div class="party--people-item">
+            <h4 class="party--people-name">Hajar Yazdiha Ferrell</h4>
+            <img src="./images/party/party-bridesmaid-haj@2x.png" class="party--people-image" alt="">
+            <p class="party--people-description">Survived high school & living in NYC together. Fights over deviled eggs. Parrrttttyyy Time!</p>
           </div>
 
           <div class="party--people-item">
@@ -49,19 +49,19 @@
           <div class="party--people-item">
             <h4 class="party--people-name">Kristin Resurreccion</h4>
             <img src="./images/party/party-bridesmaid-kristin@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description">Sisters-in-Law doing crafts, playing board games, drinking cocktails and eating.</p>
+            <p class="party--people-description">Sisters-in-Law for a decade. Crafts. Playing board games & drinking cocktails.</p>
           </div>
 
           <div class="party--people-item">
             <h4 class="party--people-name">Elena Flores</h4>
             <img src="./images/party/party-bridesmaid-elena@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description">New Sisters-in-Law.</p>
+            <p class="party--people-description">New Sisters-in-Law. Christmas & NYC audition trips. Best (or maybe worst) brownie baker.</p>
           </div>
 
           <div class="party--people-item">
             <h4 class="party--people-name">Ann Nguyen</h4>
             <img src="./images/party/party-bridesmaid-ann@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description">In loving memory of UMass roommates, Spring breaking in Cali, Endless political debates. Sheep herding in Scotland.</p>
+            <p class="party--people-description">In loving memory of UMass roommates. Spring breaking in Cali. Endless political debates. Sheep herding in Scotland.</p>
           </div>
 
         </div>
@@ -72,7 +72,9 @@
         <div class="party--officant">
           <h4 class="party--officant-name">Quincy Marr</h4>
           <img src="./images/party/party-officiant-quincy@2x.png" class="party--officant-image" alt="">
-          <p class="party--people-description party--people-description__officant">Rachel’s work soul mate. Chuck’s debate partner on ridiculous topics. Disney Dinners & Vail Hikes.</p>
+          <p class="party--people-description party--people-description__officant">Rachel’s work soul mate. <br />
+            Chuck’s debate partner on ridiculous topics. <br />
+            Disney Dinners & Vail Hikes.</p>
         </div>
       </div>
 
@@ -83,31 +85,31 @@
           <div class="party--people-item">
             <h4 class="party--people-name party--people-name__groom">Jamey Flores</h4>
             <img src="./images/party/party-groomsmen-jamey@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description party--people-description__groom">Brother of groom, birthday baseball outings, creating random childhood games</p>
+            <p class="party--people-description party--people-description__groom">Best man. Brother of groom. Birthday baseball outings. Random childhood games.</p>
           </div>
 
           <div class="party--people-item">
             <h4 class="party--people-name party--people-name__groom">Josh Bousel</h4>
             <img src="./images/party/party-groomsmen-josh@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description party--people-description__groom">Brother of Bride, Ticket to Ride,  numbing sicheun peppercorn bbq wings</p>
+            <p class="party--people-description party--people-description__groom">Brother of Bride. Ticket to Ride. Numbing Szechuan peppercorn bbq wings.</p>
           </div>
 
           <div class="party--people-item">
             <h4 class="party--people-name party--people-name__groom">Tyson Gach</h4>
             <img src="./images/party/party-groomsmen-tyson@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description party--people-description__groom">Biking to tampa,  driving the ring road Iceland, great cocktails</p>
+            <p class="party--people-description party--people-description__groom">Biking to tampa. Driving the ring road Iceland. Tasty cocktails.</p>
           </div>
 
           <div class="party--people-item">
             <h4 class="party--people-name party--people-name__groom">Davey Partain</h4>
             <img src="./images/party/party-groomsmen-davey@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description party--people-description__groom">Ghostland Observatory show, making music as ÆON RINGS, craft beer</p>
+            <p class="party--people-description party--people-description__groom">Ghostland Observatory show. Making music as ÆON RINGS. Craft beer.</p>
           </div>
 
           <div class="party--people-item">
             <h4 class="party--people-name party--people-name__groom">Khalil Al-Arefi</h4>
             <img src="./images/party/party-groomsmen-khalil@2x.png" class="party--people-image" alt="">
-            <p class="party--people-description party--people-description__groom">Snorkeling in the Virgin Islands, Nagoya Sushi, collage dance parties</p>
+            <p class="party--people-description party--people-description__groom">Snorkeling in the Virgin Islands. Nagoya Sushi. College dance parties.</p>
           </div>
 
         </div>
