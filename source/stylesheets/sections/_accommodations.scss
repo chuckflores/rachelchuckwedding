@@ -5,16 +5,16 @@ $nyc-color: $color-black;
 
 #accommodations {
   background: #FAFBFC;
-  width: 100%;
   height: 100%;
   padding-bottom: 100px;
+  width: 100%;
 }
 
 .accommodations--wrapper-container {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
   width: 100%;
 }
 
@@ -22,7 +22,6 @@ $nyc-color: $color-black;
   padding: 140px 0 40px;
   text-align: center;
   z-index: 100;
-
   .title-3 {
     @media (max-width: 560px) {
       font-size: 28px;
@@ -31,8 +30,8 @@ $nyc-color: $color-black;
 }
 
 .accommodations--content-container .title-3 {
-  text-align: center;
   margin-bottom: 120px;
+  text-align: center;
 }
 
 
@@ -82,12 +81,12 @@ $nyc-color: $color-black;
 }
 
 .accommodations--header {
+  border-bottom: 8px solid;
+  color: $color-black;
   font-weight: 800;
   font-size: 32px;
-  color: #19191A;
   letter-spacing: -0.2px;
   margin-bottom: 14px;
-  border-bottom: 8px solid;
 }
 
 #sunset-park {
@@ -127,9 +126,9 @@ $nyc-color: $color-black;
 }
 
 .hotel-list--list-item {
-  margin: 8px 0;
   display: block;
   font-weight: 500;
+  margin: 8px 0;
 }
 
 
@@ -147,17 +146,14 @@ $nyc-color: $color-black;
 }
 
 .accommodations-white-triangle-2 {
-  position: absolute;
   left: 0;
   margin-top: -240px;
+  position: absolute;
   z-index: 1;
 }
 
 .accommodations-shape-1 {
-  position: absolute;
   left: 40px;
   margin-top: 600px;
-}
-
-.accommodations-shape-2 {
+  position: absolute;
 }

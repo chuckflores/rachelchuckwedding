@@ -1,7 +1,7 @@
 #footer {
+  background: #FAFBFC;
   position: relative;
   width: 100%;
-  background: #FAFBFC;
 }
 
 .footer--wrapper-container {
@@ -10,20 +10,20 @@
 }
 
 .footer--content-container {
-  padding: 280px 0;
-  position: relative;
-  width: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 280px 0;
+  position: relative;
+  width: 100%;
 }
 
 .footer--message {
   font-size: 33px;
   font-weight: 700;
-  line-height: 47px;
   letter-spacing: -0.2px;
+  line-height: 47px;
 }
 
 .footer--date {
