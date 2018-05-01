@@ -1,3 +1,8 @@
+$sunset-color: $color-yellow;
+$downtown-color: $color-magenta;
+$lic-color: $color-cyan;
+$nyc-color: $color-black;
+
 #accommodations {
   background: #FAFBFC;
   width: 100%;
@@ -14,7 +19,8 @@
 }
 
 .accommodations--content-container {
-  padding: 140px 40px 300px;
+  padding: 140px 0 300px;
+  text-align: center;
   z-index: 100;
 
   .title-3 {
@@ -29,55 +35,102 @@
   margin-bottom: 120px;
 }
 
-.accommodations--header {
-  font-weight: 700;
-  font-size: 24px;
-  color: #19191A;
-  letter-spacing: -0.2px;
-  margin-bottom: 14px;
+
+
+.accommodations--locations-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .accommodations--location {
+  border: 2px solid;
   display: flex;
+  flex: auto;
   flex-direction: column;
-  width: 50%;
-}
-
-.accommodations--alternates-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 46%;
-}
-
-.accommodations--altenates-text {
-  position: absolute;
-  margin: 60px 0 0 70px;
-  font-weight: 600;
-}
-
-.accommodations--altenates-list {
-  display: flex;
-  flex-direction: column;
-
-  li {
-    margin-bottom: 15px;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  width: 35%;
+  @media(max-width: 800px) {
+    width: 100%;
   }
 }
 
-.accommodations--altenates-list__link {
-  text-decoration: underline;
+.accommodations--location a {
+  color: $color-black;
+  &:hover {
+    color: #FFF;
+    text-decoration: none;
+  }
 }
 
-.accommodations--altenates-list__link:hover {
-  color: $color-cyan;
+#sunset-park a:hover {
+  background-color: $sunset-color;
 }
 
-.accommodations--altenates-list__distance {
-  font-weight: 400;
+#downtown-brooklyn a:hover {
+  background-color: $downtown-color;
 }
 
+#long-island-city a:hover {
+  background-color: $lic-color;
+}
+
+#manhattan a:hover {
+  background-color: $nyc-color;
+}
+
+.accommodations--header {
+  font-weight: 800;
+  font-size: 32px;
+  color: #19191A;
+  letter-spacing: -0.2px;
+  margin-bottom: 14px;
+  border-bottom: 8px solid;
+}
+
+#sunset-park {
+  border-color: $sunset-color;
+}
+
+#downtown-brooklyn {
+  border-color: $downtown-color;
+}
+
+#long-island-city {
+  border-color: $lic-color;
+}
+
+#manhattan {
+  border-color: $nyc-color;
+}
+
+.accommodations--location-divider {
+  border-bottom: 1px;
+  border-style: solid;
+  opacity: 0.3;
+  width: 100%;
+
+}
+
+
+.hotel-list--header {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 24px 0 8px;
+}
+
+.hotel-list {
+
+}
+
+.hotel-list--list-item {
+  margin: 8px 0;
+  display: block;
+  font-weight: 500;
+}
 
 
 // Shapes shapes
@@ -106,9 +159,5 @@
   margin-top: 600px;
 }
 
-
-
 .accommodations-shape-2 {
-  // position: absolute;
-
 }
