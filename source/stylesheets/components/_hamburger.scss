@@ -1,4 +1,4 @@
-$hamburger-transition: all 250ms ease;
+$hamburger-transition: $transition-fx;
 
 // Breakpoint to show hamburger
 @media (max-width: 928px) {

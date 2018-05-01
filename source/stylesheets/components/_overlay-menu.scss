@@ -81,7 +81,7 @@
   height: 20px;
   opacity: 0.5;
   cursor: pointer;
-  transition: all 250ms ease;
+  transition: $transition-fx;
 }
 .close:hover {
   opacity: 1;

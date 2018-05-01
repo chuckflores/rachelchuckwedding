@@ -107,7 +107,7 @@
 }
 
 .details--subway-text {
-  transition: all 250ms ease;
+  transition: $transition-fx;
   text-decoration: underline;
   opacity: .5;
 }

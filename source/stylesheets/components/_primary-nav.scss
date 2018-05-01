@@ -53,7 +53,7 @@
   padding-bottom: 8px;
   text-decoration: none;
   white-space: nowrap;
-  transition: all 250ms ease;
+  transition: $transition-fx;
   &:hover {
     color: $color-cyan;
   }
