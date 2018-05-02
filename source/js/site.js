@@ -21,7 +21,8 @@ $(document).ready(function(){
     arrowsColor: "#EA1DEA",
     titleattr: 'data-title',
     titleBackground: "rgba(255,255,255,1)",
-    titleColor: "#19191A"
+    titleColor: "#19191A",
+    spinColor: "#EA1DEA"
   });
 });
 
