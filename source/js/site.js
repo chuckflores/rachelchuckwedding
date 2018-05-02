@@ -12,8 +12,18 @@ function openNav() {
     document.getElementById("myNav").style.opacity = "1";
 }
 
-
-
+// Lightbox
+$(document).ready(function(){
+  $('.venobox').venobox({
+    closeBackground: "#FFFFFF",
+    closeColor: "#FF00FF",
+    overlayColor: 'rgba(255,255,255,0.85)',
+    arrowsColor: "#EA1DEA",
+    titleattr: 'data-title',
+    titleBackground: "rgba(255,255,255,1)",
+    titleColor: "#19191A"
+  });
+});
 
 // Smooth Scroll
 $(document).ready(function() {
