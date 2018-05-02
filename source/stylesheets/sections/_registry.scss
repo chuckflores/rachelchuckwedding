@@ -11,6 +11,9 @@
 .registry--content-container {
   padding: 140px 0;
   width: 100%;
+  @media (max-width: $breakpoint-mobile) {
+    padding: 40px;
+  }
 }
 
 .zola-registry-embed {
@@ -25,6 +28,9 @@
   left: 6%;
   margin-top: 550px;
   z-index: 10;
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-2 {
@@ -32,6 +38,9 @@
   left: 24%;
   margin-top: 650px;
   z-index: 2;
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-3 {
@@ -39,6 +48,9 @@
   left: 21%;
   margin-top: 770px;
   z-index: 2;
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-4 {
@@ -46,6 +58,9 @@
   left: 33%;
   margin-top: 660px;
   z-index: 2;
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-5 {

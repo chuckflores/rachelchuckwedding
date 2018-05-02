@@ -14,9 +14,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 280px 0;
+  padding: 280px 20px;
   position: relative;
   width: 100%;
+  @media (max-width: $breakpoint-mobile) {
+    padding: 90px 20px;
+  }
 }
 
 .footer--message {
@@ -24,6 +27,9 @@
   font-weight: 700;
   letter-spacing: -0.2px;
   line-height: 47px;
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 28px;
+  }
 }
 
 .footer--date {
@@ -45,6 +51,9 @@
   @media (max-width: 500px) {
     margin-top: 2000px;
   }
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: 2200px;
+  }
 }
 
 .footer-shape-1 {
@@ -53,6 +62,11 @@
   margin-top: -700px;
   @media (max-width: 900px) {
     opacity: 0.3;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: -2000px;
+    width: 25%;
+    opacity: 0.8;
   }
 }
 
@@ -63,6 +77,10 @@
   @media (max-width: 900px) {
     opacity: 0.3;
   }
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: -1900px;
+    width: 50%;
+  }
 }
 
 .footer-shape-3 {
@@ -71,6 +89,9 @@
   margin-top: 1150px;
   @media (max-width: 900px) {
     opacity: 0.3;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
   }
 }
 
@@ -81,6 +102,9 @@
   @media (max-width: 900px) {
     opacity: 0.3;
   }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .footer-shape-5 {
@@ -90,14 +114,23 @@
   @media (max-width: 900px) {
     opacity: 0.3;
   }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .footer-shape-6 {
   position: absolute;
   left: 40px;
-  // bottom: 40px;
   margin-top: 1220px;
   @media (max-width: 900px) {
     opacity: 0.7;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+    left: 20px;
+    margin-top: 1880px;
+    opacity: 0.2;
+    width: 50%;
   }
 }
