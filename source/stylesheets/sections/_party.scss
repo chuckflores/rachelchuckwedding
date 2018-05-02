@@ -1,4 +1,4 @@
-$party-img-size-medium: 1800px;
+$party-img-size-medium: 180px;
 $party-img-size-mobile: 220px;
 
 #party {
@@ -57,7 +57,6 @@ $party-img-size-mobile: 220px;
 }
 
 .party--people-container {
-  // padding: 0 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
