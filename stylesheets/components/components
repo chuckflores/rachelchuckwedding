@@ -4,7 +4,8 @@ Error: Undefined variable: "$color-black".
         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/components.scss
 
 5: @import "scroll-icon";
-6: @import "zola-registry";
+6: @import "venobox";
+7: @import "zola-registry";
 
 Backtrace:
 /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/_title.scss:10
@@ -81,8 +82,6 @@ Backtrace:
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/rack-2.0.4/lib/rack/urlmap.rb:68:in `block in call'
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/rack-2.0.4/lib/rack/urlmap.rb:53:in `each'
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/rack-2.0.4/lib/rack/urlmap.rb:53:in `call'
-/Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/middleman-core-4.2.1/lib/middleman-core/extensions/minify_javascript.rb:55:in `call'
-/Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/middleman-core-4.2.1/lib/middleman-core/extensions/minify_css.rb:63:in `call'
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/middleman-autoprefixer-2.8.0/lib/middleman-autoprefixer/extension.rb:48:in `call'
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
 /Users/chuckflores/.rvm/gems/ruby-2.3.0/gems/rack-2.0.4/lib/rack/lint.rb:49:in `_call'
@@ -147,4 +146,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-black\".\A         on line 10 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/_title.scss\A         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/components.scss\A \A 5: @import \"scroll-icon\";\A 6: @import \"zola-registry\";"; }
+  content: "Error: Undefined variable: \"$color-black\".\A         on line 10 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/_title.scss\A         from line 1 of /Users/chuckflores/Sites/rachelchuckwedding/source/stylesheets/components/components.scss\A \A 5: @import \"scroll-icon\";\A 6: @import \"venobox\";\A 7: @import \"zola-registry\";"; }
