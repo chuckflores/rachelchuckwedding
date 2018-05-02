@@ -11,6 +11,9 @@
 .registry--content-container {
   padding: 140px 0;
   width: 100%;
+  @media (max-width: $breakpoint-mobile) {
+    padding: 40px;
+  }
 }
 
 .zola-registry-embed {
@@ -19,12 +22,26 @@
 
 
 // Shapes shapes
+$registry-tablet-landscape-offset: 200px;
+
 
 .registry-shape-1 {
   position: absolute;
   left: 6%;
   margin-top: 550px;
   z-index: 10;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(550px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(550px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(550px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-2 {
@@ -32,6 +49,18 @@
   left: 24%;
   margin-top: 650px;
   z-index: 2;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(650px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(650px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(650px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-3 {
@@ -39,6 +68,18 @@
   left: 21%;
   margin-top: 770px;
   z-index: 2;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(770px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(770px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(770px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-4 {
@@ -46,6 +87,18 @@
   left: 33%;
   margin-top: 660px;
   z-index: 2;
+  @media (max-width: $breakpoint-tablet-landscape) {
+    margin-top: calc(660px + 200px);
+  }
+  @media (max-width: $breakpoint-tablet-portrait) {
+    margin-top: calc(660px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-small) {
+    margin-top: calc(660px + 200px + 200px + 200px);
+  }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .registry-shape-5 {

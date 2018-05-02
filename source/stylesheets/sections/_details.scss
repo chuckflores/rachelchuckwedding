@@ -17,6 +17,9 @@
   justify-content: center;
   padding: 280px 20px 220px;
   position: relative;
+  @media (max-width: $breakpoint-mobile) {
+    padding-bottom: 40px;
+  }
 }
 
 .details--title {
@@ -81,15 +84,17 @@
 .details--transportation-img--container {
   align-items: center;
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .details--transportation-img-1 {
   margin-right: 24px;
+  margin-top: 10px;
   max-height: 30px;
 }
 
 .details--transportation-img-2 {
+  margin-top: 10px;
   max-height: 22px;
 }
 
@@ -159,6 +164,9 @@
   left: 13%;
   margin-top: 180px;
   position: absolute;
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: 400px;
+  }
 }
 
 .details--shape-2 {

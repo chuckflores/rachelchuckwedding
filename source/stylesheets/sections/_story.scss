@@ -7,6 +7,7 @@
   .title-3 {
     padding-top: 130px;
     padding-bottom: 110px;
+    z-index: 100;
   }
 }
 
@@ -35,7 +36,7 @@
 .story--box {
   background: #FFF;
   border-radius: 4px;
-  flex: 1 0 auto;
+  flex-grow: 1;
   margin: 20px;
   width: calc(100% / 4);
   @media (max-width: 960px) {
@@ -45,7 +46,6 @@
     width: 100%;
   }
   @media (max-width: $breakpoint-mobile) {
-    flex-grow: 0;
     margin: 10px;
   }
 }
@@ -79,14 +79,19 @@
   margin: 20px 20px 0px 20px;
 }
 
+.venobox img {
+  // width: 50%;
+}
 
 // Shapes
 
 .story-shape-1 {
   position: absolute;
   left: 26%;
-  @media (max-width: 400px) {
+  z-index: 2;
+  @media (max-width: $breakpoint-mobile) {
     left: 2%;
+    opacity: 0.3;
   }
 }
 
@@ -94,4 +99,8 @@
   position: absolute;
   left: 20%;
   margin-top: 0px;
+  z-index: 1;
+  @media (max-width: $breakpoint-mobile) {
+    opacity: 0.5;
+  }
 }
